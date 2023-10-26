@@ -3,7 +3,7 @@ function filterArray(numbers, value) {
   let array = [];
   for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] > value) {
-      array.push(i);
+      array.push(numbers[i]);
     }
   }
   return array;
